@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Sekolah</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #eaf6ff;
+            color: #333;
+        }
+
+        header {
+            background-color: #2196f3;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav {
+            background-color: #bbdefb;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #0d47a1;
+            text-decoration: none;
+            margin: 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #2196f3;
+        }
+
+        .konten {
+            background-color: white;
+            width: 80%;
+            max-width: 700px;
+            margin: 25px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-sizing: border-box;
+            border-left: 5px solid #2196f3;
+        }
+
+        h2 {
+            color: #1976d2;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .tombol {
+            display: inline-block;
+            background-color: #2196f3;
+            color: white;
+            padding: 10px 18px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .tombol:hover {
+            background-color: #0d47a1;
+        }
+
+        footer {
+            background-color: #1565c0;
+            color: white;
+            text-align: center;
+            padding: 12px;
+        }
+
+        @media (max-width: 600px) {
+            .konten {
+                width: 90%;
+            }
+
+            nav a {
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Website Sekolah</h1>
+        <p>Tempat Belajar dan Berbagi Ilmu</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#profil">Profil</a>
+        <a href="#info">Informasi</a>
+    </nav>
+
+    <div class="konten" id="home">
+        <h2>Selamat Datang</h2>
+        <p>
+            Selamat datang di website sekolah.
+            Website ini dibuat untuk latihan menggunakan HTML
+            dan CSS agar tampilan halaman menjadi lebih menarik.
+        </p>
+        <a href="#profil" class="tombol">Lihat Profil</a>
+    </div>
+
+    <div class="konten" id="profil">
+        <h2>Profil Sekolah</h2>
+        <p>
+            Sekolah merupakan tempat untuk menuntut ilmu,
+            menambah pengalaman, dan mengembangkan kemampuan
+            agar menjadi lebih baik.
+        </p>
+    </div>
+
+    <div class="konten" id="info">
+        <h2>Informasi</h2>
+        <p>
+            Di sini kita bisa menambahkan informasi tentang
+            kegiatan sekolah, jadwal pelajaran, dan pengumuman.
+        </p>
+    </div>
+
+    <footer>
+        <p>Website Sekolah | Latihan HTML dan CSS</p>
+    </footer>
+
+</body>
+</html>

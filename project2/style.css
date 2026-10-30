@@ -1,0 +1,18 @@
+.ukuran-image{
+    width: 350px;
+    height: 350px;
+}
+
+.whatsapp-float{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1050;
+    background-color: hotpink;
+    color: aliceblue;
+    padding: 12px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+
+
+}
